@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=JetBrains%20Mono);
+html {
+  background-color: #0f111a;
+}
+body {
+  font-family: "JetBrains Mono" !important;
+  background-color: #0f111a !important;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 3px dashed #dae0e5 !important;
+}
+.container,
+.jumbotron {
+  background-color: #0f111a !important;
+  color: white;
+}
+h1,
+h2 {
+  font-weight: 800;
+  margin: 1rem 0;
+  color: chartreuse;
+}
+h1 {
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+h1::before {
+  content: "# ";
+  /* font-weight: 800;
+  font-size: 1.8em; */
+}
+h2::before {
+  content: "## ";
+}

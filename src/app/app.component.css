@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=JetBrains%20Mono);
+html {
+  background-color: #0f111a;
+}
+body {
+  font-family: "JetBrains Mono" !important;
+  background-color: #0f111a !important;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 3px dashed #dae0e5 !important;
+}
+.container,
+.jumbotron {
+  background-color: #0f111a !important;
+  color: white;
+}
