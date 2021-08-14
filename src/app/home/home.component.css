@@ -1,0 +1,6 @@
+li::before {
+  content: "- ";
+}
+ul {
+  list-style: none;
+}

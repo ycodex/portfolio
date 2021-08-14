@@ -7,8 +7,9 @@ import { HomeComponent } from './home/home.component';
 import { BlogComponent } from './blog/blog.component';
 import { ResumeComponent } from './resume/resume.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { BlogPageComponent } from './blog-page/blog-page.component';
 @NgModule({
-  declarations: [AppComponent, HomeComponent, BlogComponent, ResumeComponent],
+  declarations: [AppComponent, HomeComponent, BlogComponent, ResumeComponent, BlogPageComponent],
   imports: [BrowserModule, AppRoutingModule, PdfViewerModule],
   providers: [],
   bootstrap: [AppComponent],

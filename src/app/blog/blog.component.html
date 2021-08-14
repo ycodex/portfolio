@@ -2,4 +2,8 @@
 
 <hr />
 
-<p>Nothin here</p>
+<ul>
+  <li *ngFor="let blog of blogs">
+    <a [routerLink]="['/blogPage', blog.title]">{{ blog.title }}</a>
+  </li>
+</ul>

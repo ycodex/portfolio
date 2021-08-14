@@ -39,3 +39,12 @@ h1::before {
 h2::before {
   content: "## ";
 }
+
+.bg-dark {
+  /* background-color: #232526 !important; */
+  background-color: #0f111a !important;
+}
+.navbar-brand,
+.nav-link {
+  color: chartreuse !important;
+}
