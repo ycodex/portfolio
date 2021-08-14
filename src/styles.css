@@ -47,4 +47,5 @@ h2::before {
 .navbar-brand,
 .nav-link {
   color: chartreuse !important;
+  font-weight: 800;
 }

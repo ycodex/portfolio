@@ -4,6 +4,7 @@
 
 <ul>
   <li *ngFor="let blog of blogs">
+    {{ blog.date }} -
     <a [routerLink]="['/blogPage', blog.title]">{{ blog.title }}</a>
   </li>
 </ul>
