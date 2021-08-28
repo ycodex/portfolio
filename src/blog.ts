@@ -1,5 +1,9 @@
-export interface Blog {
+export class Blog {
   title: string;
   date: string;
-  Description: string;
+
+  constructor(title: string, date: string) {
+    this.title = title;
+    this.date = date;
+  }
 }

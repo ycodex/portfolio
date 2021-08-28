@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { BlogComponent } from './blog/blog.component';
-import { ResumeComponent } from './resume/resume.component';
+// import { ResumeComponent } from './resume/resume.component';
 import { BlogPageComponent } from './blog-page/blog-page.component';
 const routes: Routes = [
   {
@@ -18,10 +18,10 @@ const routes: Routes = [
     path: 'blog',
     component: BlogComponent,
   },
-  {
-    path: 'resume',
-    component: ResumeComponent,
-  },
+  // {
+  //   path: 'resume',
+  //   component: ResumeComponent,
+  // },
   {
     path: 'blogPage/:title',
     component: BlogPageComponent,
