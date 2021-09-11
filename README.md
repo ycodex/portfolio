@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/ycodex/ycodex.github.io/badge)](https://www.codefactor.io/repository/github/ycodex/ycodex.github.io)
+
 # Portfolio
 
 Check the deployment [here!!](https://karthiknaik.me).
