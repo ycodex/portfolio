@@ -29,6 +29,11 @@ export class HomeService {
       link: '#',
       description: 'Using GANS model converts low res to high res',
     },
+    {
+      name: 'VTU GPA Calculator',
+      link: 'https://karthiknaik.me/VTU-gpa-calculator/cgpa',
+      description: 'Built using Angular',
+    },
   ];
 
   //Links
